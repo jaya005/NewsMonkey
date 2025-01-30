@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import News from './components/News'
 import NavBar from './components/NavBar'
 import { BrowserRouter as Router } from 'react-router-dom'
-import { Route,Routes, NavLink, Link } from 'react-router-dom'
+import { Route,Routes} from 'react-router-dom'
 import LoadingBar from "react-top-loading-bar";
 export default class App extends Component {
     pageSize=15
