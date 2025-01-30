@@ -1,0 +1,47 @@
+@media (max-width: 992px) and (min-width:570px) {
+    .col-lg-4 {
+      flex: 0 0 33.33%;
+      min-width: 25%;
+    }
+    .card {
+      margin: 0;
+    }
+    .row {
+      gap: 5rem;
+    }
+  }
+  
+  
+
+  @media (max-width: 750px) and (min-width:550px) {
+    .res {
+      flex: 0 0 50%;    
+      min-width:50%; 
+    }
+  
+    .card {
+        margin: 0;
+      }
+    .row {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+        padding-left: 0px;
+        gap:8rem;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+      }
+  }
+  @media (max-width:432px) {
+    .res{
+    width:50%;
+      margin: auto;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
